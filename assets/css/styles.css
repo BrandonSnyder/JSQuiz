@@ -3,8 +3,6 @@
 .top-container{
     display: flex;
     justify-content: space-between;
-
-
 }
 h3 {
     margin: 0;
@@ -32,4 +30,18 @@ a{
 }
 #hiddenQ{
     display:none;
+    align-items: flex-start;
+}
+#question-container{
+    list-style: none; 
+}
+#question{
+    font-size: 30px;
+    margin:10px;
+
+}
+#answerA,#answerB,#answerC,#answerD{
+    font-size: 25px;
+    margin: 10px;
+    
 }
