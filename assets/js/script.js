@@ -28,9 +28,9 @@ var answerCEL= document.getElementById("answerC");
 var answerDEL= document.getElementById("answerD");
 var correctAnswerEl= document.getElementById("correctAnswer");
 
-if(window.location=="http://127.0.0.1:5500/04Homework/JSQuiz/index.html"){
+
 startBTN.addEventListener("click", startQuiz);
-}
+
 
 
 // Questions Array
